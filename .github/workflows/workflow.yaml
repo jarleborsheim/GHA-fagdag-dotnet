@@ -22,7 +22,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       # Oppgave 4: Bygge koden:
-      - name: Restore the project
+      - name: Restore the  project
         run: dotnet restore
       - name: Build the project
         run: dotnet build
