@@ -27,7 +27,7 @@ public class Tests
     public void TestSomDetKanskjeErNoeGaltMed()
     {
         int a = 4;
-        int b = 1;
+        int b = 5;
         int expected = 9;
 
         int sum = Kalkulator.sum(a, b);
